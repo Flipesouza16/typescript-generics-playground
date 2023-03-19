@@ -23,7 +23,11 @@ const person: PersonAndEmployee = {
 
 
 /**
- * 2 - Union types: examples
+ * 2 - Union types: 
+ 
+ 
+ 
+ amples
  */
 type Gender = 'male' | 'female'
 type Direction = 'up' | 'down' | 'left' | 'right'
@@ -170,7 +174,7 @@ const object: PersonWithObject<PickUnionType<Objects, 'bed'>> = {
   object: 'bed'
 }
 
-// example - 2 [exntends]
+// example - 2 [extends]
 type PersonWithObject2<T extends Objects> = {
   name: string
   age: number
