@@ -23,11 +23,7 @@ const person: PersonAndEmployee = {
 
 
 /**
- * 2 - Union types: 
- 
- 
- 
- amples
+ * 2 - Union types: examples
  */
 type Gender = 'male' | 'female'
 type Direction = 'up' | 'down' | 'left' | 'right'
